@@ -1,11 +1,14 @@
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Horace Vial</h1>
-        <h2>horvia3887</h2>
+        <img src={logo} className="App-logo" alt="logo" />
+
+        <p>Horace Vial</p>
+        <p>horvia3887</p>
         <p>Railway React Deployment</p>
       </header>
     </div>
